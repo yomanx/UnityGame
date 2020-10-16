@@ -8,6 +8,7 @@ public class TestScript : MonoBehaviour
     void Start()
     {
         UIManager.instance.Show<UITest>();
+        print("Test");
     }
 
     // Update is called once per frame
